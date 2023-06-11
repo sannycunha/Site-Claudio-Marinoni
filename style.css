@@ -1,9 +1,27 @@
 *{
-    margin: 1px;
-    padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+header{
+    
+    border: solid;/* Essa propriedade adiciona um contorno(uma linha solida) para conseguir identificar a caixa e posicionamentos*/
+   }
+   .figcaption{
+    position:absolute;
+    top: 7%;
+    left: 8%;
+    border: solid;
+    border-color: black;
+    position: absolute; 
+   }
+.navegacao{
+    border: solid;
+    border-color: black;
+    position: absolute; 
+    top: 7%;
+    right: 2%;
+    width: 50%;
+}   
 
 .list{ 
 
@@ -11,7 +29,12 @@
     font-weight: bold;
     font-size: large;
 }
-
+.item70 img {
+border: solid;
+width: 100%;
+height: 600px;
+opacity: 0,5;
+}
 a{
 
     text-decoration: none; 
@@ -21,9 +44,36 @@ a{
 
 }
 
-header{
+.apresentacao {
+    background-color: rgba(255,213,79,1);
+    align-items: center;
+    border-color: black;
+    border: solid;
+    text-align: center;
+    
+}
+.apresentacao p {
+    text-align: center;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-indent: 2;
+    
 
- background-image: url(imag/70anosXaverianos.jpeg);
- background-repeat: no-repeat;
- background-size: cover;
+}
+.video {
+    border: solid;
+    border-color: black;
+    display: grid;
+    grid-template-rows: 2fr;
+    align-items: center;
+    
+}
+.video h1 {
+    text-align: center;
+}
+.video iframe {
+   border: solid;
+      
 }
